@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --blue-1: #5e65f0;
+  --blue-2: #4c4caf;
+  --yellow-1: #fac742;
+  --white: #fff;
+  --grey-1: #ededed;
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --shadow-light: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100dvh;
+  background-color: #21216d;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 399px) {
+  .container {
+    width: 100%;
+  }
+}
